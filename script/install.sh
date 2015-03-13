@@ -165,6 +165,10 @@ brew_install_or_upgrade 'brew-cask'
 brew_tap 'caskroom/versions'
 
 brew_cask_install 'iterm2'
+# Potentials
+# brew_cask_install 'atom' or 'sublime-text3'
+# brew_cask_install 'github'
+# brew_cask_install 'flux'
 
 brew_install_or_upgrade 'vim'
 brew_install_or_upgrade 'tmux'
