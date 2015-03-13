@@ -182,6 +182,7 @@ do
   cp $from $to
 done
 brew_install_or_upgrade 'python'
+pip install psutil
 pip install git+git://github.com/Lokaltog/powerline
 
 # powerline fonts
