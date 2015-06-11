@@ -48,6 +48,9 @@ Bundle 'vim-node'
 " JSON highlighting
 Bundle 'vim-json'
 
+" LESS vim plugin
+Bundle 'vim-less'
+
 " required for Vundle
 filetype plugin indent on
 
@@ -71,7 +74,7 @@ syntax enable
 function! SetAltPrefs()
     set shiftwidth=2
 endfunction
-autocmd FileType xml,html,xhtml,javascript,json call SetAltPrefs()
+autocmd FileType xml,html,xhtml,javascript,json,less,css call SetAltPrefs()
 
 set incsearch
 set ignorecase
