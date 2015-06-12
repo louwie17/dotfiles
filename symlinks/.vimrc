@@ -48,9 +48,6 @@ Bundle 'vim-node'
 " JSON highlighting
 Bundle 'vim-json'
 
-" LESS vim plugin
-Bundle 'vim-less'
-
 " required for Vundle
 filetype plugin indent on
 

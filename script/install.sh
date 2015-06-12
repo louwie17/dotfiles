@@ -195,7 +195,6 @@ mkdir -p ~/.config/fontconfig/conf.d/ && mv 10-powerline-symbols.conf ~/.config/
 git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 git clone https://github.com/moll/vim-node.git ~/.vim/bundle/vim-node
 git clone git@github.com:leshill/vim-json.git ~/.vim.bundle/vim-json
-git clone git@github.com:groenewege/vim-less.git ~/.vim.bundle/vim-less
 
 # vundle
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
