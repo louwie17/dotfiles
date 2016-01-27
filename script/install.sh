@@ -173,6 +173,7 @@ brew_cask_install 'iterm2'
 brew_install_or_upgrade 'vim'
 brew_install_or_upgrade 'tmux'
 brew_install_or_upgrade 'reattach-to-user-namespace'
+brew_install_or_upgrade 'CMake'
 
 find ../symlinks/ -type d | cpio -pdvm ~/
 for file in `find ../symlinks/ -type f`
@@ -208,3 +209,6 @@ echo "Open your term2 profile and set non-ascii font to powerline font"
 #if [ ! -f "$HOME/.ssh/github_rsa.pub" ]; then
 #  open ~/Applications/GitHub.app
 #fi
+# Compile YouCompleteMe Vundle Plugin
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --tern-completer
