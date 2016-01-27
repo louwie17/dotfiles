@@ -212,3 +212,7 @@ echo "Open your term2 profile and set non-ascii font to powerline font"
 # Compile YouCompleteMe Vundle Plugin
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py --tern-completer
+
+# Need to add dependencies for JS tern
+cd ~/.vim/bundle/tern_for_vim
+npm install
