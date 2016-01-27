@@ -60,6 +60,9 @@ let g:ycm_add_preview_to_completeopt=0
 let g:ycm_confirm_extra_conf=0
 set completeopt-=preview
 
+" Tern for JS
+Plugin 'marijnh/tern_for_vim'
+
 " required for Vundle
 filetype plugin indent on
 
